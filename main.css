@@ -1,0 +1,105 @@
+.body {
+    font-family: sans-serif;
+}
+.header {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.user-image {
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.user-image img {
+    border-radius: 50%;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.user-text h1 {
+    color: rgb(32, 30, 30);
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+    opacity: 0.9;
+}
+
+.user-text p {
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.scroll i {
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    text-align: center;
+    animation-name: myanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes myanimation {
+    0% {opacity: 0}
+    10% {opacity: 0.1}
+    20% {opacity: 0.2}
+    30% {opacity: 0.3}
+    40% {opacity: 0.4}
+    50% {opacity: 0.5}
+    60% {opacity: 0.6}
+    70% {opacity: 0.7}
+    80% {opacity: 0.8}
+    90% {opacity: 0.9}
+    100% {opacity: 1}
+}
+
+#particles {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  .label {
+      margin-bottom: 10px;
+  }
+  .label span.percent {
+      float: right;
+  }
+  .progress {
+    height: 5px;
+  }
+  .progress-bar {
+    background: -webkit-linear-gradient(left, #33156d 0%,#f282bc 100%);
+  }
+
+  .new-section {
+    padding: 3%;
+  }
+
+  i.fab {
+    color: black;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .user-text h1 {
+        font-size: large;
+    }
+  }
