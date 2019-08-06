@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
       lineColor: '#ede6e4',
       minSpeedX: '0.1',
       maxSpeedX: '0.3',
-      density: '30000',
-      
+      density: '15000',   
     });
   }, false);
