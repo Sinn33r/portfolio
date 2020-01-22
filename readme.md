@@ -6,13 +6,13 @@ HTML5, CSS3, Bootstrap, Particleground (https://jnicol.github.io/particleground/
 
 #### Overview
 <p align="center">
- <img src="https://raw.githubusercontent.com/b-robak/portfolio/blob/origin/1.PNG"  title="register form">
+ <img src="https://github.com/b-robak/portfolio/raw/origin/1.PNG">
 </p>
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/b-robak/portfolio/blob/origin/2.PNG"  title="register form">
+ <img src="https://github.com/b-robak/portfolio/raw/origin/2.PNG">
 </p>
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/b-robak/portfolio/blob/origin/3.PNG"  title="register form">
+ <img src="https://github.com/b-robak/portfolio/raw/origin/3.PNG">
 </p>
